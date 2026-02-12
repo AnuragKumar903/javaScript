@@ -21,3 +21,12 @@ function palindrome(a){
 let str = "Madam";
 let isPlaindrome = palindrome(str);
 console.log(isPlaindrome);
+
+// que 03 find max in an array
+
+const arr = [2,4,5,6,1,8];
+let max = 0;
+for(let i=0; i<arr.length; i++){
+    if(arr[i] > max)    max = arr[i];
+}
+console.log("Maximum no. in arr: "+ {max});
